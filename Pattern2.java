@@ -1,11 +1,9 @@
 public class Pattern2 {
 	public static void main(String[] args) {
-		/*
-		 *   		1
-		 *   	  2   2
-		 *       3  3  3
-		 *     4  4  4  4
-		 * 
+		/*   		*
+		 *   	  *   *
+		 *       *  *  *
+		 *     *  *  *  *
 		 */
 		int max=40;
 		for(int r = 1;r <=5;r++) {
@@ -15,15 +13,10 @@ public class Pattern2 {
 			}
 			
 			for(int c=1;c<=r;c++) {
-				System.out.print(r+"  ");
+				System.out.print("*"+"  ");
 			}
 			System.out.println();
 			max = max - 2;
-			
 		}
-		
-		
-		
 	}
-
 }
