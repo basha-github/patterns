@@ -9,8 +9,6 @@ public class Patrren1 {
 		 * 1 2 3 4
 		 * 1 2 3 4 5
 		 * 
-		 * 
-		 * 
 		 */
 		for(int r=1;r<=5;r++) {
 			for(int c=1;c<=r;c++) {
